@@ -1,0 +1,53 @@
+body{
+    background:url(pk.jpg);
+    font-size: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.pic1{
+    font-style: bold;
+    font-family: "Lucida Console","Courier New",monospace;
+    text-align:center;
+    color:blue;
+    font-size: 70px;
+    letter-spacing: 5px;
+    animation-delay:5px;
+    word-spacing:10px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic2{
+    text-align:center;
+    letter-spacing:2px;
+    margin-top:110px;
+    display:flex;
+    justify-content: space-around;
+    flex: 33.33%;
+  padding: 5px;
+}
+.pic3{
+    text-align:center;
+   letter-spacing:2px;
+    margin-top:140px;
+    display:flex;
+    justify-content: space-around;
+    flex: 33.33%;
+  padding: 5px;
+}
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
